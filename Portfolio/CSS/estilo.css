@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/img3.jpg);
+}
+#body .logo{
+    text-shadow: -1px 5px 5px rgb(185, 111, 185);
+}
+nav{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: sticky;
+/*    top:0;
+    background-color: rgba(0,0,0,0.5);*/
+}
+h4{
+    color:whitesmoke;
+    font-weight: 35px;;
+}
+.logo  {
+    color: darkviolet;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.logo:hover{
+    color: lightcoral;
+    letter-spacing: 6px;
+    text-shadow: -5px -5px	4px rgb(185, 111, 185);
+} 
+span{
+    color: lightcoral;
+    transition: all .4s ease-in-out; 
+}
+span:hover{
+    color: darkviolet;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: lightcoral;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize; 
+/*    border: 2px solid darkviolet;
+    border-radius: 3px;     */
+}
+nav ul li a:hover{
+    color: whitesmoke;
+    transition: .4s;
+    text-shadow: -1px 5px 5px rgb(185, 111, 185);
+}
+.btn{
+    background-color: darkviolet;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.conteudo{
+    position: absolute;
+    top:50%;
+    right: 5%;
+    transform: transkate(-50%);
+}
+h1{
+    color: darkviolet;
+    margin: 20px 0px 20px;
+    font-size: 45px;
+    font-family: century;
+}
+h3{
+    color: rgb(52, 7, 71);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.news form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.news form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid darkviolet;
+    outline: none;
+    border-radius: 30px;
+}
+.news form input:last-child{
+   position: absolute;
+   display: inline-block;
+   outline: none;
+   border:none;
+   padding: 10px 30px;
+   border-radius: 30px;
+   background-color: darkviolet;
+   color: whitesmoke;
+   top: 6px;
+   right: 6px;   
+   transition: all .4s ease-in-out;  
+}
+.news form input:last-child:hover{
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px darkviolet;
+}
+
+/* Esterizando a seccao sobre mim */
+#sobre{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #191919;
+}
+#sobre img{
+    height: auto;
+    width: 430px;
+}
+.texto-sobre{
+    width: 550px;
+} 
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.texto-sobre h2{
+    color: whitesmoke;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: century;
+    letter-spacing: 2px;
+}
+.texto-sobre h5{
+    color:wheat;
+    letter-spacing: 2px;
+    font-size:22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.texto-sobre p{
+    color:whitesmoke;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+button{
+    background-color:darkviolet;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+} 
+button:hover{
+    background-color: transparent;
+    border: 2px solid darkviolet;
+    cursor: pointer;
+    
+}
+
+/* Estilizando os servicos */
+#servicos{
+    background: #101010;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.titulo h2{
+    color: whitesmoke;
+    font-size: 60px;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    font-family: century;
+}
+
+.caixa{
+    display: flex;
+    color:whitesmoke;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+h5{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.info p{   
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.carta{
+    height: 360px;
+    width: 330px;
+    padding: 20px 30px;
+    color: #fcfc;
+/*  background: #191919;  */
+    background: linear-gradient(to top, rgba(228, 107, 133,0.9) 50%, #191919 50%);
+    background-size: 100% 200%;
+
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: all .8s;
+}
+
+/*Transicao de cores e das bordas inferiores direitas na seccion servico */
+.carta:hover{
+/*  background-color: rgba(228, 107, 133, 0.5); */
+    background-position: left bottom;
+
+    color: black;   
+    border-radius: 20px 20px 100px;
+}
+
+
+
+
+.info .button{
+    background-color:darkviolet;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.info .button:hover{
+    background: transparent;
+    border: 2px solid darkviolet;
+    cursor: pointer;
+}
+
+/* Esterilizando a seccao de para contactar*/
+#contactar{
+    background-color: #191919;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#contactar p{
+    color: whitesmoke; 
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 50px;
+}
+
+#contactar .formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+#contactar .formulario .form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#contactar .formulario .form .name {
+    margin-bottom: 25px;
+    height: 35px;
+    border: 2px solid darkviolet;
+    border-radius: 10px;
+}
+#contactar .formulario .form .email{
+    margin-bottom: 25px;
+    height: 35px;
+    border: 2px solid darkviolet;
+    border-radius: 10px;
+}
+
+#contactar .formulario .form textarea{
+
+    border: 2px solid darkviolet;
+    border-radius: 10px;
+}
+
+#contactar .button-two{
+    background-color:darkviolet;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: -10px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    width: 150px;
+    margin:auto;
+}
+#contactar .button-two:hover{
+    background: transparent;
+    border: 2px solid darkviolet;
+    cursor: pointer;
+}
+
+/* Esterilizando o querido FOoter */
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+.footer p{
+    color: gray;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer .name{
+    color: whitesmoke;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.footer .copy{
+    padding-top: 20px;
+    color: black;
+    font-size: 14px;
+}
